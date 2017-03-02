@@ -1,0 +1,83 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body , html {
+
+  // width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-image: url("Panda.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+
+  .navigation {
+    display: block;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-family: "Apple Chancery";
+    font-size: 100px;
+    border-radius: 100px;
+    background-color: rgba(91, 165, 97, 0.30);
+    margin-top : 5px;
+    border-collapse:(91, 165, 97, 0.10);
+
+  //  background-color: aquamarine;
+    top: 0;
+  }
+  .nav2 {
+    width: 60%;
+    padding-top:10%;
+    height: 300px;
+    text-align: center;
+    font-family: "Apple Chancery";
+    font-size: 100px;
+    border-radius: 10px;
+    border : 3px solid rgba(3, 101, 100, 0.75);
+    margin-top: 50px;
+
+    display: inline-block;
+    //position: absolute;
+    margin-left: 10px;
+    float: left;
+    color : rgba(300, 100, 300, 0.75);
+    background-color: rgba(213, 255, 230, 0.77);
+  }
+  .login {
+    // position: absolute;
+    float: left;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+ //   text-align: center;
+    margin-left: 80px;
+    //font-family: "Apple Chancery";
+//    font-size: 60px;
+    border-radius: 20px;
+
+    margin-top: 50px;
+    border: 3px solid rgba(213, 255, 230, 0.75);
+    background-color: rgba(213, 255, 230, 0.77);
+   // padding-top: 10%;
+  }
+  .inset {
+    margin-left: 20%;
+   // font-size: 30px;
+    line-height: 50px;
+    padding: 10px;
+  border: solid 1px #fff;
+  box-shadow: inset 1px 1px 2px 0 #707070;
+  transition: box-shadow 0.3s;
+  }
+  h2 {
+    	font-family: 'Rockwell Extra Bold', 'Rockwell Bold', monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26px;
+  }
+}
